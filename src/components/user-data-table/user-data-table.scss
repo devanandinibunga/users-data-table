@@ -1,0 +1,26 @@
+.user-data-table-wrapper {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  .search-input {
+    align-self: end;
+    width: 28%;
+    padding: 0.4rem 0.2rem;
+  }
+  .table tbody tr.highlight-row {
+    --bs-table-bg: #f0f8ff;
+    font-weight: bold;
+  }
+
+  .table tbody tr:hover {
+    cursor: pointer;
+  }
+  .pagination-wrapper {
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    align-items: center;
+  }
+}

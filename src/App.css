@@ -1,0 +1,12 @@
+.error-message,
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.retry{
+  border-radius: 1rem;
+  padding: 0.1rem 1.8rem;
+}
